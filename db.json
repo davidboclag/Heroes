@@ -1,0 +1,112 @@
+{
+  "heroes": [
+    {
+      "id": 1,
+      "name": "BLACK PHANTER"
+    },
+    {
+      "id": 2,
+      "name": "BATMAN"
+    },
+    {
+      "id": 3,
+      "name": "SPIDER-MAN"
+    },
+    {
+      "id": 4,
+      "name": "DOCTOR STRANGER"
+    },
+    {
+      "id": 5,
+      "name": "CAPITÁN AMÉRICA"
+    },
+    {
+      "id": 6,
+      "name": "AQUAMAN"
+    },
+    {
+      "id": 7,
+      "name": "HULK"
+    },
+    {
+      "name": "ANT-MAN",
+      "id": 8
+    },
+    {
+      "name": "MATRACA",
+      "id": 9
+    },
+    {
+      "name": "WONDER WOMAN",
+      "id": 10
+    },
+    {
+      "name": "IRON MAN",
+      "id": 11
+    },
+    {
+      "name": "THOR",
+      "id": 12
+    },
+    {
+      "name": "CAPITANA MARVEL",
+      "id": 13
+    },
+    {
+      "name": "BLACK WIDOW",
+      "id": 14
+    },
+    {
+      "name": "WOLVERINE",
+      "id": 15
+    },
+    {
+      "name": "DEADPOOL",
+      "id": 16
+    },
+    {
+      "name": "BLADE",
+      "id": 17
+    },
+    {
+      "name": "VISIÓN",
+      "id": 18
+    },
+    {
+      "name": "LA VIUDA NEGRA",
+      "id": 19
+    },
+    {
+      "name": "FLASH",
+      "id": 20
+    },
+    {
+      "name": "THANOS",
+      "id": 21
+    },
+    {
+      "name": "GROOT",
+      "id": 22
+    },
+    {
+      "name": "ROCKET",
+      "id": 23
+    },
+    {
+      "name": "GAMORA",
+      "id": 24
+    },
+    {
+      "name": "STAR-LORD",
+      "id": 25
+    },
+    {
+      "name": "DRAX",
+      "id": 26
+    },
+    {
+      "name": "NEBULA",
+      "id": 27
+    }
+  ]
+}

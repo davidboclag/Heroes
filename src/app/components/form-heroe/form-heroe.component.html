@@ -1,0 +1,16 @@
+<h1 mat-dialog-title>{{titleDialog}}</h1>
+<div mat-dialog-content>
+  <form [formGroup]="myForm" novalidate (ngSubmit)="onOkClick()">
+    <mat-form-field class="w-100">
+      <mat-label>Nombre</mat-label>
+      <input matInput appUppercase type="text" placeholder="Nombre" formControlName="name" id="name">
+      <mat-error *ngIf="myError('name', 'required')">Nombre es requerido</mat-error>
+      <mat-error *ngIf="myError('name', 'minlength')">Mínimo 3 caracteres</mat-error>
+      <mat-error *ngIf="myError('name', 'maxlength')">Máximo 30 caracteres</mat-error>
+    </mat-form-field>
+  </form>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-raised-button color="warn" (click)="onNoClick()">Cancelar</button>
+  <button [disabled]="myForm.invalid" mat-button mat-raised-button color="primary" (click)="onOkClick()">Ok</button>
+</div>
